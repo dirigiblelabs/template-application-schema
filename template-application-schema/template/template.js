@@ -17,7 +17,7 @@ exports.getTemplate = function (parameters) {
         sources: [{
             location: "/template-application-schema/data/application.schema.template",
             action: "generate",
-            rename: "gen/schema/{{fileNameBase}}.schema",
+            rename: "gen/schema/{{projectName}}.schema",
             engine: "velocity"
         }],
         parameters: []
